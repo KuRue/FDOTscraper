@@ -1,19 +1,19 @@
 # FDOTscraper
-Scrape FDOT Cameras
+Scrape FDOT Cameras<br/><br/>
 
-Does basic scraping off the FL511 website.
-Cameras are split into areas and ranges.
-Some areas have no cameras, some areas only have cameras in certain ranges.
+Does basic scraping off the FL511 website.<br/>
+Cameras are split into areas and ranges.<br/>
+Some areas have no cameras, some areas only have cameras in certain ranges.<br/>
 
-Flags:
--sa = Start of search area
--ea = End of search area
--sr = Start of search range
--er = End of search range
+Flags:<br/>
+-sa = Start of search area<br/>
+-ea = End of search area<br/>
+-sr = Start of search range<br/>
+-er = End of search range<br/><br/>
 
-Example:
-This will cover all (as far as I know) cameras in all ranges, but will take the longest time.
-python FDOTscraper.py -sr 0 -er 9999 -sa 1 -ea 18
+Example:<br/>
+This will cover all (as far as I know) cameras in all ranges, but will take the longest time.<br/>
+python FDOTscraper.py -sr 0 -er 9999 -sa 1 -ea 18<br/><br/><br/>
 
 
 Latest releases here: https://github.com/KuRue/FDOTscraper/releases
