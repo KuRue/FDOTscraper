@@ -5,6 +5,8 @@ Does basic scraping off the FL511 website.<br/>
 Cameras are split into areas and ranges.<br/>
 Some areas have no cameras, some areas only have cameras in certain ranges.<br/>
 
+![alt text](https://github.com/KuRue/FDOTscraper/blob/main/Image.jpg?raw=true)
+
 Flags:<br/>
 -sa = Start of search area<br/>
 -ea = End of search area<br/>
