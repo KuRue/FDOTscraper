@@ -17,7 +17,7 @@ Example:<br/>
 This will cover all (as far as I know) cameras in all ranges, but will take the longest time.<br/>
 python FDOTscraper.py -sr 0 -er 9999 -sa 1 -ea 18<br/><br/>
 
-DO NOT USE THE WINDOWS STORE PYTHON
+DO NOT USE THE WINDOWS STORE PYTHON <br/>
 It has a hard time with requests-html
 
 Latest releases here: https://github.com/KuRue/FDOTscraper/releases
