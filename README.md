@@ -19,13 +19,13 @@ nothing = REGULAR mode : queries for each camera in area and range defined,  sav
 
 Examples:<br/>
 Scrape cameras 600 through 700 in area 12<br/>
-```FDOTscraper.py -sr 600 -er 700 -sa 12 -ea 12```<br/><br/>
-Scan entire range and save good cameras to list called cameras.txt
-```FDOTscraper.py -s cameras.txt```
-Scan cameras 0 to 1000 in area 7 through 9 and save good cameras to list called cameras.txt
-```FDOTscraper.py -sr 0 -er 1000 -sa 7 -ea 9 -s cameras.txt```
-Scrape all good cameras from are 8.
-```FDOTscraper.py -sa 8 -ea 8 -s cameras.txt```
+```FDOTscraper.py -sr 600 -er 700 -sa 12 -ea 12```<br/>
+Scan entire range and save good cameras to list called cameras.txt<br/>
+```FDOTscraper.py -s cameras.txt```<br/>
+Scan cameras 0 to 1000 in area 7 through 9 and save good cameras to list called cameras.txt<br/>
+```FDOTscraper.py -sr 0 -er 1000 -sa 7 -ea 9 -s cameras.txt```<br/>
+Scrape all good cameras from are 8.<br/>
+```FDOTscraper.py -sa 8 -ea 8 -s cameras.txt```<br/>
 
 
 DO NOT USE THE WINDOWS STORE PYTHON <br/>
