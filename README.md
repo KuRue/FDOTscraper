@@ -25,7 +25,7 @@ Scan entire range and save good cameras to list called cameras.txt<br/>
 Scan cameras 0 to 1000 in area 7 through 9 and save good cameras to list called cameras.txt<br/>
 ```FDOTscraper.py -sr 0 -er 1000 -sa 7 -ea 9 -s cameras.txt```<br/>
 Scrape all good cameras from are 8.<br/>
-```FDOTscraper.py -sa 8 -ea 8 -s cameras.txt```<br/>
+```FDOTscraper.py -sa 8 -ea 8 -l cameras.txt```<br/>
 
 
 DO NOT USE THE WINDOWS STORE PYTHON <br/>
