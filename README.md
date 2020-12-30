@@ -12,10 +12,21 @@ Flags:<br/>
 -ea = End of search area<br/>
 -sr = Start of search range<br/>
 -er = End of search range<br/>
+-p  = Path (default = fl511) 
+nothing = REGULAR mode : queries for each camera in area and range defined,  saves any images it can find.<br/>
+-s = SCAN mode : Scans through area and range defined, saves list of good cameras without downloading images.<br/>
+-l = LIST mode :  Uses saved list of good cameras to avoid checking bad areas and ranges.<br/>
 
-Example:<br/>
-This will cover all (as far as I know) cameras in all ranges, but will take the longest time.<br/>
-python FDOTscraper.py -sr 0 -er 9999 -sa 1 -ea 18<br/><br/>
+Examples:<br/>
+Scrape cameras 600 through 700 in area 12<br/>
+```FDOTscraper.py -sr 600 -er 700 -sa 12 -ea 12```<br/><br/>
+Scan entire range and save good cameras to list called cameras.txt
+```FDOTscraper.py -s cameras.txt```
+Scan cameras 0 to 1000 in area 7 through 9 and save good cameras to list called cameras.txt
+```FDOTscraper.py -sr 0 -er 1000 -sa 7 -ea 9 -s cameras.txt```
+Scrape all good cameras from are 8.
+```FDOTscraper.py -sa 8 -ea 8 -s cameras.txt```
+
 
 DO NOT USE THE WINDOWS STORE PYTHON <br/>
 It has a hard time with requests-html
